@@ -1,1 +1,28 @@
-# BaiTapGiuaKi_SQL
+# BaiTapGiuaKi_SQL_ Nhóm 2
+#Lưu ý: do em vẫn biết fix lỗi database, nếu muốn tạo database phải nhấn 2 lần excute mới có thể tạo database được.
+
+#Dong góp Của các Thành viên. 
+~Huynh
+-tạo data base.
+-Tạo Làm bảng :NhaCungCap,KhachHang,NhanVien.
+-Thêm dữ liệu:NhaCungCap,KhachHang,NhanVien.
+-Làm view :v_NhanVienBanDuocNhieuNhat,v_SanPhamLoiNhuanCaonhatThangv_NhanVienCoHoaDonBanCaonhat,v_ThongKeNhapXuatTonThang.
+-Làm store procedure:sp_LayThongTinHoaDonBan,sp_ApDungKhuyenMaiChoSanPham
+-Làm function:ko làm .
+-Làm trigger:tg_CapNhatThanhTienChiTietHDBan.
+
+~Dũng 
+-Tạo Làm bảng :ChiTietKhuyenMai,KhuyenMai,SanPham,LoaiSanPham.
+-Thêm dữ liệu:ChiTietKhuyenMai,KhuyenMai,SanPham,LoaiSanPham.
+-Làm view :vw_DanhSachNhanVienv_ChiTietKhuyenMaiVoiTenSPVaTenKM,v_SanPhamCanNhapThem.
+-Làm store procedure:sp_TimKiemSanPhamTheoTen.
+-Làm function:LayTenNhanVien.
+-Làm trigger:tg_NgayKetThucKhuyenMai,tg_CapNhatSoLuongTonKho và ChiTietHDNhap.
+
+~Thiện 
+-Tạo Làm bảng :ChiTietPhieuKiemKho,PhieuKiemKho,ChiTietHDNhap,HoaDonNhap.
+-Thêm dữ liệu:ChiTietPhieuKiemKho,PhieuKiemKho,ChiTietHDNhap,HoaDonNhap.
+-Làm view :vw_DanhSachSanPham,v_SoLuongChenhLechKiemKho,v_KhachHangTiemNang.
+-Làm store procedure:sp_ThemNhanVien,tg_CapNhatSoLuongTonKho và ChiTietHDNhap;
+-Làm function:TinhTongTienHoaDonBan.
+-Làm trigger:khonog lam.
